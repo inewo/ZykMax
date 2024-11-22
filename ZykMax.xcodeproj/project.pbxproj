@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5A28CE322CEFEDBB00F74083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A28CE192CEFEDB900F74083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A28CE202CEFEDB900F74083;
+			remoteInfo = ZykMax;
+		};
+		5A28CE3C2CEFEDBB00F74083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A28CE192CEFEDB900F74083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A28CE202CEFEDB900F74083;
+			remoteInfo = ZykMax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A28CE212CEFEDB900F74083 /* ZykMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZykMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A28CE312CEFEDBB00F74083 /* ZykMaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZykMaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A28CE3B2CEFEDBB00F74083 /* ZykMaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZykMaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5A28CE232CEFEDB900F74083 /* ZykMax */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZykMax;
+			sourceTree = "<group>";
+		};
+		5A28CE342CEFEDBB00F74083 /* ZykMaxTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZykMaxTests;
+			sourceTree = "<group>";
+		};
+		5A28CE3E2CEFEDBB00F74083 /* ZykMaxUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ZykMaxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A28CE1E2CEFEDB900F74083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A28CE2E2CEFEDBB00F74083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A28CE382CEFEDBB00F74083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A28CE182CEFEDB900F74083 = {
+			isa = PBXGroup;
+			children = (
+				5A28CE232CEFEDB900F74083 /* ZykMax */,
+				5A28CE342CEFEDBB00F74083 /* ZykMaxTests */,
+				5A28CE3E2CEFEDBB00F74083 /* ZykMaxUITests */,
+				5A28CE222CEFEDB900F74083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A28CE222CEFEDB900F74083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A28CE212CEFEDB900F74083 /* ZykMax.app */,
+				5A28CE312CEFEDBB00F74083 /* ZykMaxTests.xctest */,
+				5A28CE3B2CEFEDBB00F74083 /* ZykMaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A28CE202CEFEDB900F74083 /* ZykMax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A28CE452CEFEDBB00F74083 /* Build configuration list for PBXNativeTarget "ZykMax" */;
+			buildPhases = (
+				5A28CE1D2CEFEDB900F74083 /* Sources */,
+				5A28CE1E2CEFEDB900F74083 /* Frameworks */,
+				5A28CE1F2CEFEDB900F74083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5A28CE232CEFEDB900F74083 /* ZykMax */,
+			);
+			name = ZykMax;
+			packageProductDependencies = (
+			);
+			productName = ZykMax;
+			productReference = 5A28CE212CEFEDB900F74083 /* ZykMax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A28CE302CEFEDBB00F74083 /* ZykMaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A28CE482CEFEDBB00F74083 /* Build configuration list for PBXNativeTarget "ZykMaxTests" */;
+			buildPhases = (
+				5A28CE2D2CEFEDBB00F74083 /* Sources */,
+				5A28CE2E2CEFEDBB00F74083 /* Frameworks */,
+				5A28CE2F2CEFEDBB00F74083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A28CE332CEFEDBB00F74083 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A28CE342CEFEDBB00F74083 /* ZykMaxTests */,
+			);
+			name = ZykMaxTests;
+			packageProductDependencies = (
+			);
+			productName = ZykMaxTests;
+			productReference = 5A28CE312CEFEDBB00F74083 /* ZykMaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A28CE3A2CEFEDBB00F74083 /* ZykMaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A28CE4B2CEFEDBB00F74083 /* Build configuration list for PBXNativeTarget "ZykMaxUITests" */;
+			buildPhases = (
+				5A28CE372CEFEDBB00F74083 /* Sources */,
+				5A28CE382CEFEDBB00F74083 /* Frameworks */,
+				5A28CE392CEFEDBB00F74083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A28CE3D2CEFEDBB00F74083 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A28CE3E2CEFEDBB00F74083 /* ZykMaxUITests */,
+			);
+			name = ZykMaxUITests;
+			packageProductDependencies = (
+			);
+			productName = ZykMaxUITests;
+			productReference = 5A28CE3B2CEFEDBB00F74083 /* ZykMaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A28CE192CEFEDB900F74083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					5A28CE202CEFEDB900F74083 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					5A28CE302CEFEDBB00F74083 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5A28CE202CEFEDB900F74083;
+					};
+					5A28CE3A2CEFEDBB00F74083 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5A28CE202CEFEDB900F74083;
+					};
+				};
+			};
+			buildConfigurationList = 5A28CE1C2CEFEDB900F74083 /* Build configuration list for PBXProject "ZykMax" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A28CE182CEFEDB900F74083;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5A28CE222CEFEDB900F74083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A28CE202CEFEDB900F74083 /* ZykMax */,
+				5A28CE302CEFEDBB00F74083 /* ZykMaxTests */,
+				5A28CE3A2CEFEDBB00F74083 /* ZykMaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A28CE1F2CEFEDB900F74083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A28CE2F2CEFEDBB00F74083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A28CE392CEFEDBB00F74083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A28CE1D2CEFEDB900F74083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A28CE2D2CEFEDBB00F74083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A28CE372CEFEDBB00F74083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A28CE332CEFEDBB00F74083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A28CE202CEFEDB900F74083 /* ZykMax */;
+			targetProxy = 5A28CE322CEFEDBB00F74083 /* PBXContainerItemProxy */;
+		};
+		5A28CE3D2CEFEDBB00F74083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A28CE202CEFEDB900F74083 /* ZykMax */;
+			targetProxy = 5A28CE3C2CEFEDBB00F74083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A28CE432CEFEDBB00F74083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A28CE442CEFEDBB00F74083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A28CE462CEFEDBB00F74083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZykMax/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ZykMax needs access to your photos to analyze your physique";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zm.ZykMax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A28CE472CEFEDBB00F74083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZykMax/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "ZykMax needs access to your photos to analyze your physique";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zm.ZykMax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A28CE492CEFEDBB00F74083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zm.ZykMaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZykMax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZykMax";
+			};
+			name = Debug;
+		};
+		5A28CE4A2CEFEDBB00F74083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zm.ZykMaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZykMax.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZykMax";
+			};
+			name = Release;
+		};
+		5A28CE4C2CEFEDBB00F74083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zm.ZykMaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZykMax;
+			};
+			name = Debug;
+		};
+		5A28CE4D2CEFEDBB00F74083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zm.ZykMaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZykMax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A28CE1C2CEFEDB900F74083 /* Build configuration list for PBXProject "ZykMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A28CE432CEFEDBB00F74083 /* Debug */,
+				5A28CE442CEFEDBB00F74083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A28CE452CEFEDBB00F74083 /* Build configuration list for PBXNativeTarget "ZykMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A28CE462CEFEDBB00F74083 /* Debug */,
+				5A28CE472CEFEDBB00F74083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A28CE482CEFEDBB00F74083 /* Build configuration list for PBXNativeTarget "ZykMaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A28CE492CEFEDBB00F74083 /* Debug */,
+				5A28CE4A2CEFEDBB00F74083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A28CE4B2CEFEDBB00F74083 /* Build configuration list for PBXNativeTarget "ZykMaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A28CE4C2CEFEDBB00F74083 /* Debug */,
+				5A28CE4D2CEFEDBB00F74083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A28CE192CEFEDB900F74083 /* Project object */;
+}
